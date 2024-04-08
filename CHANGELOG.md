@@ -1,5 +1,45 @@
 # Changelog
 
+## [8.0.0](https://github.com/AstroNvim/astrocommunity/compare/v7.0.0...v8.0.0) (2024-04-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **colorscheme:** Fix issue in package having the wrong name ([#848](https://github.com/AstroNvim/astrocommunity/issues/848))
+* **yanky-nvim:** change conflicting mapping `<Leader>p` → `<Leader>fy` ([#831](https://github.com/AstroNvim/astrocommunity/issues/831))
+
+### Features
+
+* **image-nvim:** use luarocks.nvim for "magick" rock ([#835](https://github.com/AstroNvim/astrocommunity/issues/835)) ([6a58f1d](https://github.com/AstroNvim/astrocommunity/commit/6a58f1d12d6edff795c40d924058d9fa908c61f7))
+* **media:** add codesnap.nvim ([#828](https://github.com/AstroNvim/astrocommunity/issues/828)) ([875ebcb](https://github.com/AstroNvim/astrocommunity/commit/875ebcbaa62a3427006fa869ecc7874bef8f53e2))
+* **nvim-devdocs:** bundled `js/node` docs for typescript files ([#834](https://github.com/AstroNvim/astrocommunity/issues/834)) ([ade3c18](https://github.com/AstroNvim/astrocommunity/commit/ade3c180c999ff06ea57c6a5fee9c5a90cb265cd))
+* **pack:** add elixir/phoenix pack ([#821](https://github.com/AstroNvim/astrocommunity/issues/821)) ([4a80be4](https://github.com/AstroNvim/astrocommunity/commit/4a80be49b48a4d5053d744b38104c2f911543977))
+* **startup:** add mini-starter plugin ([#836](https://github.com/AstroNvim/astrocommunity/issues/836)) ([5da6e0a](https://github.com/AstroNvim/astrocommunity/commit/5da6e0a36aa78bab0cf09e9b0b781e38c3192da1))
+* **ts-error-translator-nvim:** `astro` and `svelte` support added ([b1e5f08](https://github.com/AstroNvim/astrocommunity/commit/b1e5f08257d0f34990dc88625df888d06e230782))
+* **ts-error-translator-nvim:** `svelte` and `astro` support added ([#827](https://github.com/AstroNvim/astrocommunity/issues/827)) ([b1e5f08](https://github.com/AstroNvim/astrocommunity/commit/b1e5f08257d0f34990dc88625df888d06e230782))
+
+
+### Bug Fixes
+
+* **colorscheme:** Fix issue in package having the wrong name ([#848](https://github.com/AstroNvim/astrocommunity/issues/848)) ([1622ae5](https://github.com/AstroNvim/astrocommunity/commit/1622ae552c54461af4dd86e791a5310f955311ef))
+* **coq_nvim:** Disable all cmp plugins ([#843](https://github.com/AstroNvim/astrocommunity/issues/843)) ([9572bea](https://github.com/AstroNvim/astrocommunity/commit/9572beac818cfe1c6d2b1395faf55b0d2206e224))
+* **coq-nvim:** Disable all cmp plugins ([9572bea](https://github.com/AstroNvim/astrocommunity/commit/9572beac818cfe1c6d2b1395faf55b0d2206e224))
+* **lsp_lines-nvim:** change virtual_text option to astrocore ([#826](https://github.com/AstroNvim/astrocommunity/issues/826)) ([7f95c2e](https://github.com/AstroNvim/astrocommunity/commit/7f95c2e6bc03c611935c3c8c04ec21edab5e0d48))
+* **mason-tool-installer-nvim:** Update mappings function for mason-null-ls ([a692178](https://github.com/AstroNvim/astrocommunity/commit/a692178449b0441d102af44c636aaf32e301326d))
+* **mason-tool-installer-nvim:** Use mappings function for null-ls names ([#841](https://github.com/AstroNvim/astrocommunity/issues/841)) ([a692178](https://github.com/AstroNvim/astrocommunity/commit/a692178449b0441d102af44c636aaf32e301326d))
+* **mini-completion:** Disable all cmp plugins ([#842](https://github.com/AstroNvim/astrocommunity/issues/842)) ([4116515](https://github.com/AstroNvim/astrocommunity/commit/4116515d857405a55933dd22bb467a0428438273))
+* **nordic-nvim:** spec accidentally used `load` rather than `setup` ([14647de](https://github.com/AstroNvim/astrocommunity/commit/14647de59010546fb116bd52f179f4956c4d9a80))
+* **nvim-toggler:** fix default binding ([f2ddc4d](https://github.com/AstroNvim/astrocommunity/commit/f2ddc4d3709d11ce862ba24a5390c9e6d7d2a6c8))
+* **vim-highlighter:** fix incorrect mapping format ([425fe07](https://github.com/AstroNvim/astrocommunity/commit/425fe071e796ce9872846713cbcb2ba7d05e96e8))
+* **yanky-nvim:** change conflicting mapping `&lt;Leader&gt;p` → `<Leader>fy` ([8eda9d9](https://github.com/AstroNvim/astrocommunity/commit/8eda9d98e71454906f29fec65c5175f98ebfad18))
+* **yanky-nvim:** change conflicting mapping `&lt;Leader&gt;p` → `<Leader>fy` ([#831](https://github.com/AstroNvim/astrocommunity/issues/831)) ([8eda9d9](https://github.com/AstroNvim/astrocommunity/commit/8eda9d98e71454906f29fec65c5175f98ebfad18))
+
+
+### Performance Improvements
+
+* **json:** lazy load SchemaStore ([d85b6e8](https://github.com/AstroNvim/astrocommunity/commit/d85b6e8cc450ff86763afe75eb2bc511f76fa058))
+* **yaml:** lazy load SchemaStore ([82b44a0](https://github.com/AstroNvim/astrocommunity/commit/82b44a046c3fd2eafd266f27ad2e983b1c8a4720))
+
 ## [7.0.0](https://github.com/AstroNvim/astrocommunity/compare/v6.0.1...v7.0.0) (2024-04-01)
 
 
